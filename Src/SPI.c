@@ -52,4 +52,5 @@ int compareSpiCommand(char *str){
 			return NOT_MATCH;
 	}
 	return i;
+
 }

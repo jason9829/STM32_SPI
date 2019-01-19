@@ -28,7 +28,8 @@ Src/main.o: ../Src/main.c \
  C:/Users/user/Desktop/STM32_SPI-master/Inc/RCC.h \
  C:/Users/user/Desktop/STM32_SPI-master/Inc/SPI.h \
  C:/Users/user/Desktop/STM32_SPI-master/Inc/common.h \
- C:/Users/user/Desktop/STM32_SPI-master/Inc/GPIO.h
+ C:/Users/user/Desktop/STM32_SPI-master/Inc/GPIO.h \
+ C:/Users/user/Desktop/STM32_SPI-master/Inc/USART.h
 
 C:/Users/user/Desktop/STM32_SPI-master/Inc/main.h:
 
@@ -89,3 +90,5 @@ C:/Users/user/Desktop/STM32_SPI-master/Inc/SPI.h:
 C:/Users/user/Desktop/STM32_SPI-master/Inc/common.h:
 
 C:/Users/user/Desktop/STM32_SPI-master/Inc/GPIO.h:
+
+C:/Users/user/Desktop/STM32_SPI-master/Inc/USART.h:

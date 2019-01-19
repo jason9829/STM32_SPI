@@ -28,7 +28,7 @@ void numbersInString(char *str, int base){
 
   end = str;
 //  while(prevEndPtr != &end){
-        prevEndPtr = end;
+        //prevEndPtr = end;
       buffer[i] = strtol(end, &end ,base);
       //prevEndPtr = end;
       i++;

@@ -35,10 +35,10 @@ struct spiRegs{         // offset         // Description
 #define SPI_BAUD_CONTRL_4         (1 << 3)  // peripheral clk freq divide by 4
 #define SPI_BAUD_CONTRL_8         (2 << 3)  // peripheral clk freq divide by 8
 #define SPI_BAUD_CONTRL_16        (3 << 3)  // peripheral clk freq divide by 16
-#define SPI_BAUD_CONTRL_32        (4 << 3)  // peripheral clk freq divide by 2
-#define SPI_BAUD_CONTRL_64        (5 << 3)  // peripheral clk freq divide by 2
-#define SPI_BAUD_CONTRL_128       (6 << 3)  // peripheral clk freq divide by 2
-#define SPI_BAUD_CONTRL_256       (7 << 3)  // peripheral clk freq divide by 2
+#define SPI_BAUD_CONTRL_32        (4 << 3)  // peripheral clk freq divide by 32
+#define SPI_BAUD_CONTRL_64        (5 << 3)  // peripheral clk freq divide by 64
+#define SPI_BAUD_CONTRL_128       (6 << 3)  // peripheral clk freq divide by 128
+#define SPI_BAUD_CONTRL_256       (7 << 3)  // peripheral clk freq divide by 256
 #define SPI_DIS         		  (0 << 6)  // Disable peripheral
 #define SPI_EN         			  (1 << 6)  // Enable peripheral
 #define SPI_MSB_TRANSMIT_1ST      (0 << 7)  // MSB transmitted first

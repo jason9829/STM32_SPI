@@ -79,9 +79,11 @@ struct RCCRegs{				//  Offset	// Description
 
 
 // For SPI
+
 #define DISABLE_SPI1_CLK_GATING()     rcc->apb2enr &= ~(1 << 12)
 #define DISABLE_SPI2_CLK_GATING()     rcc->apb1enr &= ~(1 << 14)
 #define DISABLE_SPI3_CLK_GATING()     rcc->apb1enr &= ~(1 << 15)
+
 
 // For ADC
 #define DISABLE_ADC1_CLK_GATING()		rcc->apb2enr &= ~(1 << 8)
